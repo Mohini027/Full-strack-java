@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    color: white;
+}
+.mohini{
+    background-color:darkred;
+}
+#summary{
+    background-color: darkcyan;
+    
+}
+
+.Education{
+    background-color:blue;
+}
+
+.projects{
+    background-color:chocolate;
+    
+}
+
+#skills{
+    background-color:coral;
+
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    color: black;
+}
+#Work{
+    background-color: brown;
+}
+.B{
+    color: black;
+}
