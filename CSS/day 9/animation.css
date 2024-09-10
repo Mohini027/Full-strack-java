@@ -76,7 +76,7 @@ div{
         transition: all 1s ease-in-out 0s;
     }
     100%{
-        transform: translateX(0px)rotate(180deg);
+        transform: translateX(0px)rotate(0deg);
         transition: all 1s ease-in-out 0s;
     }
 }
@@ -107,7 +107,7 @@ div{
         transition: all 1s ease-in-out 0s;
     }
     100%{
-        transform: translateY(0px)rotate(180deg);
+        transform: translateY(0px)rotate(0deg);
         transition: all 1s ease-in-out 0s;
     }
 }
