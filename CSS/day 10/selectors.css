@@ -1,0 +1,91 @@
+#i1{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    position:fixed;
+    top: 1%;
+    padding: 10px;
+    gap: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#i2{
+    background-color: rgb(255, 127, 142);
+    margin-top: 4%;
+    text-align: center;
+    padding: 20px;
+}
+#i3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+#i3{
+    background-color:aqua;
+    padding-left: 2%;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+#i4{
+    background-color:aqua;
+    padding: 1%;
+    margin-top: 15%;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 1%;
+}
+th{
+    text-align: left;
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    border: 3px solid whitesmoke;
+}
+#i5{
+    background-color:blue;
+    height: 70vh;
+    margin-top: 1%;
+    padding: 1%;
+}
+.project{
+    width: 30%;
+    background-color: antiquewhite;
+    margin: 2%;
+    padding: 2% 5%;
+    text-align: center;
+    float: inline-start;
+}
+#i6{
+    background-color: lightpink;
+    padding: 2%;
+    margin-top: 1%;
+}
+input{
+    width: 98%;
+    height: 30px;
+    margin: 1%;
+}
+textarea{
+    width: 95%;
+    height: 40px;
+    margin: 2%;
+}
+button{
+    padding: 2% 3%;
+    background-color: lightseagreen;
+    font-weight: 900;
+}
