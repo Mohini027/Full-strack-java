@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.food-item{
+    background-color:lightblue;
+    width: 450px;
+    height: 650px;
+    font-size: 25px;
+   
+}
+img{
+    width: 100%;
+    height: 80%;
+}
+.food-item-part1{
+    height: 20%;
+    width: 100%;
+}
+.food-item-part-1_1,.food-item-part-1_2{
+    display:flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:424px) {
+    .food-item{
+        background-color:lightcoral;
+}
+}
+.food-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin: 1%;
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+    .food-item{
+        background-color:lightpink;
+}
+}
+.food-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin: 1%;
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .food-item{
+        background-color:lightgreen;
+}
+}
+.food-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin: 1%;
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .food-item{
+        background-color:lightgoldenrodyellow;
+}
+}
+.food-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin: 1%;
+}
+@media screen and (min-width:1440px){
+    .food-item{
+        background-color:lightsalmon;
+}
+}
+.food-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin: 1%;
+}
