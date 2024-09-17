@@ -27,7 +27,6 @@ img{
     .food-item{
         background-color:lightcoral;
 }
-}
 .food-items{
     display: flex;
     flex-wrap: wrap;
@@ -35,13 +34,13 @@ img{
     align-content: center;
     gap: 20px;
     margin: 1%;
+}
 }
 
 @media screen and (min-width:425px) and (max-width:768px){
     .food-item{
         background-color:lightpink;
 }
-}
 .food-items{
     display: flex;
     flex-wrap: wrap;
@@ -49,13 +48,13 @@ img{
     align-content: center;
     gap: 20px;
     margin: 1%;
+}
 }
 
 @media screen and (min-width:769px) and (max-width:1024px){
     .food-item{
         background-color:lightgreen;
 }
-}
 .food-items{
     display: flex;
     flex-wrap: wrap;
@@ -63,13 +62,13 @@ img{
     align-content: center;
     gap: 20px;
     margin: 1%;
+}
 }
 
 @media screen and (min-width:1025px) and (max-width:1440px){
     .food-item{
         background-color:lightgoldenrodyellow;
 }
-}
 .food-items{
     display: flex;
     flex-wrap: wrap;
@@ -78,11 +77,11 @@ img{
     gap: 20px;
     margin: 1%;
 }
-@media screen and (min-width:1440px){
+}
+@media screen and (min-width:1441px){
     .food-item{
         background-color:lightsalmon;
 }
-}
 .food-items{
     display: flex;
     flex-wrap: wrap;
@@ -90,4 +89,5 @@ img{
     align-content: center;
     gap: 20px;
     margin: 1%;
+}
 }

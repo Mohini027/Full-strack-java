@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 40%;
+   display:flex;
+   flex-direction: column;
+   gap: 50px;
+}
+.one{
+    display: flex;
+}
+button{
+    border:1px solid blue;
+    padding: 2%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.one p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#two{
+  text-align: center;
+}
+#three{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.i1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#four{
+    display: flex;
+    text-align: center;
+}
+#four img{
+    width: 10%;
+    gap: 20px;
+}
