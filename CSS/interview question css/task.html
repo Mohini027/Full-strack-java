@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h2>CSS interview Q&A</h2>
+    <details>
+        <summary>1.What is CSS? Why do we use it?</summary>
+        <p>CSS(Cascading Style Sheets) is the language used to style an HTML document. It is used to describe the visual presentation of a document.</p>
+    </details>
+    <details>
+        <summary>2.In how many ways can we create css styling?What are they?</summary>
+        <p>There are 3 ways to insert css into html. <br>
+            ● Inline styling <br>
+            ● Internal styling <br>
+            ● External styling
+        </p>
+    </details>
+    <details>
+        <summary>3.what is the difference b/w 3 ways of css styling?</summary>
+        <p>Inline Styling: In inline styling CSS styles directly apply to the individual HTML elements using the style
+            attribute. <br><br>
+            Internal Styling: Internal styling in CSS refers to the method of embedding CSS rules directly within the
+            HTML document using the style tag. <br><br>
+            External Styling: External CSS is used to style multiple HTML pages with a single style sheet. External CSS
+            contains a separate CSS file with a .css extension.</p>
+    </details>
+    <details>
+        <summary>4.What is specificity among the ways of css styling?</summary>
+        <p>inline > internal > external</p>
+    </details>
+    <details>
+        <summary>5.What is the syntax of css?</summary>
+        <p>selector{property:value;} <br>
+            ex: h1{color:green;}</p>
+    </details>
+    <details>
+        <summary>6.What is a selector?</summary>
+        <p>A CSS selector selects the HTML element(s) you want to style.</p>
+    </details>
+    <details>
+        <summary>7.How many types of selectors?</summary>
+        <p>We can divide CSS selectors into five categories: <br>
+            ● Simple selectors (select elements based on name, id, class) <br>
+            ● Combinator selectors (select elements based on a specific relationship between them) <br>
+            ● Pseudo-class selectors (select elements based on a certain state) <br>
+            ● Pseudo-elements selectors (select and style a part of an element) <br>
+            ● Attribute selectors (select elements based on an attribute or attribute value)</p>
+    </details>
+    <details>
+        <summary>8.What are the general selectors?</summary>
+        <p> General selectors also known as simple selectors. <br>
+            1. Element Selectors (p/h1) <br>
+            2. Universal Selectors (*) <br>
+            3. Id selectors (#) <br>
+            4. class selectors (.) <br>
+            5. grouping selectors (h1,h2)
+        </p>
+    </details>
+    <details>
+        <summary>9.What is difference b/w the pseudo class vs pseudo element?</summary>
+        <p> Pseudo-Class <br>
+            Definition: A pseudo-class is used to define a special state of an element. <br>
+            Syntax: It is written with a single colon (:) followed by the pseudo-class name. <br>
+            Examples: <br>
+            :hover , :focus <br> <br>
+            Pseudo-Element<br>
+            Definition: A pseudo-element is used to style a specific part of an element. <br>
+            Syntax: It is written with a double colon (::) followed by the pseudo-element name <br>
+            Examples: <br>
+            ::before , ::after </p>
+    </details>
+    <details>
+        <summary>10.What is the rule set?</summary>
+        <p>A CSS rule set contains one or more selectors and one or more declarations. </p>
+    </details>
+    <details>
+        <summary>11.What is box-modal?</summary>
+        <p>The CSS box model is a box that wraps around every HTML element. It consists of content, padding, borders and
+            margins.</p>
+    </details>
+    <details>
+        <summary>12.What are the box-modal properties? (explain)</summary>
+        <p>Content: This is the actual content of the element, such as text, images, or other media. <br>
+            Padding: Padding is the space between the content and the element's border. It adds internal space within
+            the element. <br>
+            Border: The border surrounds the padding and content of the element. <br>
+            Margin: Margins are the space outside the element, separating it from other elements.</p>
+    </details>
+    <details>
+        <summary>13.What is the d/f b/w padding and margin?</summary>
+        <img src="./1.png" alt="">
+    </details>
+    <details>
+        <summary>14.What is d/f b/w outline and border?</summary>
+        <p>Border: Part of the box model, affects element size, customizable, and impacts layout. <br>
+            Outline: Outside the box model, doesn't affect size, mainly used for accessibility, and does not influence
+            layout.</p>
+    </details>
+    <details>
+        <summary>15.types of colors we have in css?</summary>
+        <p>1. Direct - using named colors <br>
+            2.rgb - (0-255)<br>
+            3.rgba - alpha defines opacity. a - (0-1) <br>
+            4.Hexa - # , (a-f), (0-9) <br>
+            5.hsl - h - (0-360), s - (0-100%) , l - (0-100%) <br>
+            6.hsla
+        </p>
+    </details>
+    <details>
+        <summary>16.What is opacity?</summary>
+        <p>Opacity in CSS refers to the transparency level of an element. <br>
+            0.0 (fully transparent) and 1.0 (not transparent at all)</p>
+    </details>
+    <details>
+        <summary>17.What are shadows in css and how many are they?</summary>
+        <p>shadows are used to create visual depth and styling effects to elements. <br>
+            There are two types of shadows in CSS: <br>
+            Box Shadow (box-shadow) <br>
+            Text Shadow (text-shadow)
+        </p>
+    </details>
+    <details>
+        <summary>18.What are gradients in css and how many are they?</summary>
+        <p>CSS gradients let you display smooth transitions between two or more specified colors. <br>
+            CSS defines three types of gradients: <br>
+            Linear Gradients (goes down/up/left/right/diagonally) <br>
+            Radial Gradients (defined by their center) <br>
+            Conic Gradients (rotated around a center point)</p>
+    </details>
+    <details>
+        <summary>19.What is the d/f b/w display and float?</summary>
+        <p>display - It controls how an element is displayed and its behavior in relation to other elements. It defines
+            whether the element behaves as a block, inline, flex, grid, or other layout model. <br>
+            float - It positions an element to the left or right and allows text or other inline elements to wrap around
+            it.</p>
+    </details>
+    <details>
+        <summary>20.What is d/f b/w the display:inline vs display:block vs display:inline-block?</summary>
+        <img src="./2.png" alt="">
+    </details>
+    <details>
+        <summary>21.what is d/f b/w the visibility:hidden and display:none?</summary>
+        <p>visibility: hidden: The element is hidden but still takes up space in the layout. Other elements won't move.
+            <br>
+            display: none: The element is hidden and removed entirely from the document flow, meaning its space is no
+            longer occupied and the surrounding elements adjust accordingly.</p>
+    </details>
+    <details>
+        <summary>22.what is object-fit ? and in how many types can we fit the object?</summary>
+        <p>The CSS object-fit property is used to specify how an img or video should be resized to fit its container.
+            <br>
+            fill - This is default. The image is resized to fill the given dimension. If necessary, the image will be
+            stretched or squished to fit <br>
+            contain - The image keeps its aspect ratio, but is resized to fit within the given dimension <br>
+            cover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit
+            <br>
+            none - The image is not resized <br>
+            scale-down - the image is scaled down to the smallest version of none or contain</p>
+    </details>
+    <details>
+        <summary>23.What is background property? what are the properties of background do you know?</summary>
+        <p>background properties are used to add background effects for elements. <br>
+            background-color: Sets a solid background color. <br>
+            background-image: Applies an image as the background. <br>
+            background-repeat: Controls how the background image repeats (or doesn't). <br>
+            background-attachment: Controls whether the background is fixed or scrolls with the page. <br>
+            background-position: Controls the initial position of the background image. <br>
+            background (shorthand property)</p>
+    </details>
+    <details>
+        <summary>24.what is the position property?</summary>
+        <p>The position property specifies the type of positioning method used for an element.</p>
+    </details>
+    <details>
+        <summary>25.types of position values we can give?</summary>
+        <p>There are five different position values: <br>
+            static <br>
+            relative <br>
+            fixed <br>
+            absolute <br>
+            sticky</p>
+    </details>
+    <details>
+        <summary>26.what is d/f b/w the position:sticky and position:fixed?</summary>
+        <p>position: sticky is used for elements that should scroll with the page until a certain point <br>
+        position: fixed is used for elements that should always remain visible on the screen.</p>
+    </details>
+    <details>
+        <summary>27.what is d/f b/w the position:relative and position:absolute?</summary>
+        <p>Relative - the element is positioned relative to its normal position. <br>
+        Absolute - the element is positioned absolutely to its first positioned parent.</p>
+    </details>
+    <details>
+        <summary>28.What is overflowing in css?</summary>
+        <p>The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.</p>
+    </details>
+    <details>
+        <summary>29.What is z-index in css? default value of z-index?</summary>
+        <p>When elements are positioned, they can overlap other elements. <br>
+        The z-index property specifies the stack order of an element <br>
+        The default value of the z-index property in CSS is auto.</p>
+    </details>
+    <details>
+        <summary>30.What is a clear property?</summary>
+        <p>clear Property: Controls the behavior of elements in relation to floating elements.</p>
+    </details>
+    <details>
+        <summary>31.What are the css variables?</summary>
+        <p> CSS variables allow you to define reusable values in your CSS.</p>
+    </details>
+    <details>
+        <summary>32.What is :root in css?</summary>
+        <p>:root is a pseudo-class selector that matches the highest-level parent of the document, which is usually the <html> element in an HTML document.</p>
+    </details>
+    <details>
+        <summary>33.What are text properties?</summary>
+        <p>● Text align <br>
+        ● Text decoration <br>
+        ● Text transform <br>
+        ● Text shadow
+        </p>
+    </details>
+    <details>
+        <summary>34.What are the font -properties?</summary>
+        <p>● Font Style <br>
+        ● Font Size <br>
+        ● Font Weight <br>
+        ● Font Family</p>
+    </details>
+    <details>
+        <summary>35.What is a flex box in css?</summary>
+        <p>CSS Flexbox is a one-dimensional layout model that allows you to design complex web layouts more efficiently and intuitively. </p>
+    </details>
+    <details>
+        <summary>36.What is a grid layout system?</summary>
+        <p>A grid layout is a multi-dimensional design approach where content is organized into rows and columns</p>
+    </details>
+    <details>
+        <summary>37.d/f b/w the flex vs grid?</summary>
+        <p>Flexbox: Ideal for simpler, one-dimensional layouts where you need flexibility along a single axis (row or column). <br>
+        Grid: Best for two-dimensional layouts where you need to control both rows and columns simultaneously and create more complex structures.</p>
+    </details>
+    <details>
+        <summary>38.What are media queries in css? why do we need to use them?</summary>
+        <p>Media Queries: Allow you to apply CSS styles conditionally, based on characteristics of the device (like width, height, resolution, or orientation). <br>
+        Need for Media Queries: They enable responsive designs, improving user experience across a variety of devices, making web pages more adaptable, accessible, and user-friendly.</p>
+    </details>
+    <details>
+        <summary>39.What are transitions in css?</summary>
+        <p>CSS transitions allows you to change property values smoothly, over a given duration.</p>
+    </details>
+    <details>
+        <summary>40.What are the transforms in css?</summary>
+        <p>CSS transforms allow you to move, rotate, scale, and skew elements.</p>
+    </details>
+    <details>
+        <summary>41.How can you center a div?</summary>
+        <p>display:grid,place-items:center <br>
+        display: flex; , justify-content: center; ,align-items: center;</p>
+    </details>
+    <details>
+        <summary>42.what is d.f b/w the transitions vs transforms vs animations?</summary>
+        <p>Use Transitions: When you want to create smooth changes for simple interactions, like hover effects. <br>
+        Use Transforms: When you want to change the shape or position of an element without needing to animate it. <br>
+        Use Animations: When you need to create intricate animations that involve multiple steps or properties over time.</p>
+    </details>
+    <details>
+        <summary>43.What is a matrix in transforms?</summary>
+        <p>Matrix in Transforms: A compact way to apply multiple transformations (scale, rotate, skew, translate) at once.</p>
+    </details>
+    <details>
+        <summary>44.d/f b/w css and css3?</summary>
+        <p>CSS3 is an advanced and enhanced version of CSS, offering a richer set of features that allow developers to create more dynamic, visually appealing, and responsive web designs.</p>
+    </details>
+</body>
+</html>
