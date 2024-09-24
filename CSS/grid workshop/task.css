@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    background-color: rgb(107, 194, 194);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    font-size: 25px;
+}
+#i1{
+    display: flex;
+    margin-top: 40px;
+    background-color: rgb(15, 9, 9);
+}
+#i1 img{
+    width: 50%;
+}
+#two{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 40%;
+    align-content: center;
+}
+#two span{
+    color: red;
+}
+#two p{
+    margin: 15px 0px;
+
+}
+#two button{
+    border-radius: 25px;
+    padding: 2%;
+    font-size: 25px;
+}
+#two p a{
+   color: brown;
+}
+#three{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 40px;
+    padding-top: 9%
+}
+#three img {
+    width: 45px;
+}
+.child{
+    width: 20%;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+}
+#section1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section1part1{
+width: 40%;
+}
+.section1part2{
+    width: 40%;
+}
+.section1part1 h1{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.section1part1 h2{
+font-size: 30px;
+margin-bottom: 3%;
+}
+.section1part1 p{
+margin-bottom: 6%;
+}
+.sp1{
+    display: flex;
+    gap: 10px;
+}
+.sp2{
+display: flex;
+gap: 15px;
+margin-bottom: 30px;
+}
+.section1part2 label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section1part2 input{
+    width:90% ;
+    height:60%;
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.section1part2 button{
+    width: 450px;
+    background-color:orangered;
+    color:white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5%;
+    padding: 3%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+section{
+    background-image: linear-gradient(red 30% , lightblue 20%);
+    padding-bottom: 8%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+footer a{
+    color:coral;
+}
+header p:hover , .sp1 img:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
