@@ -5,30 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Hydrostyling.css">
+    <link rel="stylesheet" href="task.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <header>
-        <nav>
-            <div class="logo">
-                <h3>Hydro</h3>
-                <div class="link">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Blog</a>
-                    <a href="#">OurWork</a>
-                    <a href="#">Contacts</a>
-                </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white ms-5 me-5" href="#">Hydro</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 itemsnav">
+                  <li class="nav-item">
+                    <a class="nav-link active ms-3 text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-3 text-white">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-3 text-white" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-3 text-white">OurWork</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-3 text-white">Contacts</a>
+                  </li>
+                </ul>
+                <form class="d-flex  text-white gap-3 align-items-center social" >
+                    <i class="fa-brands fa-facebook fs-2"></i>
+                    <i class="fa-brands fa-twitter fs-2"></i>
+                    <i class="fa-brands fa-instagram fs-2"></i>
+                    <button class="fs-5" type="button">Signin / Join</button>    
+                </form>
+              </div>
             </div>
-            <div class="social">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <button type="button">Signin / Join</button>
-            </div>
-        </nav>
+          </nav>
+    </header>
+    <div class="banner-bg">
         <div class="banner">
             <div class="banner-matter">
                 <h1>We make beautiful websites for all people.<h1>
@@ -39,7 +58,7 @@
             </div>
             <iframe src="https://www.youtube.com/embed/AqcjdkPMPJA?si=p823FdLmmFcM721W"></iframe>
         </div>
-    </header>
+    </div>
     <main>
         <section class="intro">
             <div class="intro-child1">
