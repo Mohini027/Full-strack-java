@@ -19,18 +19,15 @@ const smartphone = {
 delete smartphone.model;
 console.log(smartphone);
 
+// 3.adding a property
 const book = {
     title: "Learn JavaScript",
     author: "John Smith",
     pages: 400
 };
-
-// Options:
 book.genre = "Programming";
 console.log(book);
-// addProperty(book, "genre", "Programming");
-// book["Programming"] = "genre";
-// modify book with genre: "Programming";
+
 
 // 4. var data = [10, 20, ["apple", "banana"], ["cat", ["dog", "elephant"], "fish"], "grape"];
 
